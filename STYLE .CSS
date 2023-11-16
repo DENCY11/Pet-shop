@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*Permite suavizar el scroll (al bajar la pagina)*/
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #434343;
+    font-family:'Times New Roman', Times, serif;
+    background: url("Rectangle\ 21853.png");
+
+}
+
+header{
+    
+    display: flex;
+    
+    align-items: center;
+    height: 80px;
+    padding: 0 20px ;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+
+    /*Aplia la separacion de los contenidos del contenedor*/
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+li{
+    /*Quita decoracion de la lista*/
+    list-style: none;
+}
+
+a{
+    /*Quita decoracion de texto*/
+    text-decoration: none;
+    color: black;
+}
+
+/*Propiedades cuando se pasa el mouse encima */
+a:hover{
+    /*transicion de cualquier tipo, por tiempo y tipo de transiciones */
+    transition: all ease 0.2s;
+    color: orangered;
+}
+
+.perro{
+    height: 30pc;
+    width: 25pc;
+    left: 049pc;
+    top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.borde{
+    position: absolute;
+    top: px;
+    left: 055.67pc;
+    width: px;
+}
+
+.negro{
+    height: 36pc;
+    width: 30pc;
+    position: absolute;
+    left: 65pc;
+
+}
+
+.amarillo{
+    position: absolute;
+    left: 059pc;
+    width: 20pc;
+    top: 7pc;
+}
+
+.parrafo1{
+    font-size: 20px;
+    position: absolute;
+    left: 15pc;
+    top: 12pc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parrafo2{
+    position: absolute;
+    left: 15pc;
+    top: 15pc;
+    font-size: 30px;
+    width: 10px;
+}
